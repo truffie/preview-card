@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: 'Mulish-Regular';
+
+  src: local('Mulish-Regular') url(../assets/fonts/Mulish-Regular.ttf) format("ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Mulish-Bold';
+  src: local('Mulish-Bold'),
+    url(../assets/fonts/Mulish-Bold.ttf) format("ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Mulish-ExtraBold';
+
+  src: local('Mulish-ExtraBold'),
+    url(../assets/fonts/Mulish-ExtraBold.ttf) format("ttf");
+  font-weight: 800;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: 'Mulish-ExtraBold';
+  ;
+}
+
+.wrapper {
+  width: 1120px;
+  margin: auto;
+  display: flex;
+
+}
+
+.header .wrapper {
+  justify-content: space-between;
+}
+
+
+.header__logo {
+  font-family: Mulish;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 38px;
+  letter-spacing: 0;
+
+}
+
+.header__menu {}
+
+
+
+.menu__list {
+  display: flex;
+}
+
+.menu__item {
+  list-style-type: none;
+}
+
+.button {
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  width: 147px;
+  letter-spacing: 0px;
+  background: linear-gradient(44.11deg, #8FBBE5 15.75%, #3D75BF 84.63%);
+  border-radius: 50px;
+  color: #FFFFFF;
+  padding: 15px 30px;
+  text-align: center;
+
+}
+
+.header__button {}
+
+.promo .wrapper {}
+
+.promo__left {}
+
+.promo__header {}
+
+.promo__text {}
+
+.text {}
+
+.promo__button {}
+
+.promo__right {}
+
+.about .wrapper {}
+
+.about__first .about__header .about__subtitle .about__second .about__third .advantages .advantages__info .advantages__header .advantages__subtitle .advantages__cards .card .card__img .card__contect .card__header .card__text .contact .contact__img .img .contact__header .contact__button .footer .footer__left .footer__left-wrapper .footer__img .footer__header .footer__email .footer__text .footer__right .footer__hschool
